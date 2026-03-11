@@ -101,5 +101,15 @@ namespace _0225
             output_BMI.Text = $"{bmi:F2} ({Text_Result})";
             output_BMI.BackColor = colorResult;
         }
+
+        private void txtHeight_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmBMI_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
